@@ -1,0 +1,39 @@
+/* Styles personnalisés pour Bigoodee */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, #6b46c1, #5a67d8);
+}
+
+.carousel-slide {
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #1a202c;
+}
+
+button.left, button.right {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
