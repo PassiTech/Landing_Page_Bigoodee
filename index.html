@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content
+    ="width=device-width, initial-scale=1.0">
+  <title>Bigoodee - Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- En-tête -->
+  <header class="bg-pink-600 py-6" data-aos="fade-down">
+    <div class="container mx-auto flex justify-between items-center">
+      <img src="assets/images/logo.png" alt="Logo Bigoodee" class="h-12">
+      <nav>
+        <ul class="flex space-x-6 text-white">
+          <li><a href="#about" class="hover:text-yellow-400">À propos</a></li>
+          <li><a href="#services" class="hover:text-yellow-400">Services</a></li>
+          <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+          <li><a href="#faq" class="hover:text-yellow-400">FAQ</a></li>
+          <li><a href="#newsletter" class="hover:text-yellow-400">Newsletter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section Principale -->
+  <main>
+    <section class="bg-gradient-to-r from-pink-500 to-pink-600 text-white py-20" data-aos="fade-up">
+      <div class="container mx-auto text-center">
+        <h1 class="text-5xl font-bold leading-tight">Bigoodee, votre guide vers la beauté naturelle des cheveux texturés</h1>
+        <p class="mt-6 text-lg">Accompagner les femmes dans leur quête de cheveux sains et naturels pour un épanouissement quotidien.</p>
+        <a href="#contact" class="mt-8 inline-block bg-yellow-400 text-black py-3 px-8 rounded-full text-lg hover:bg-yellow-500">Contactez-nous</a>
+      </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section id="services" class="py-20 bg-gray-50" data-aos="fade-up">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-semibold">Ce que disent nos clientes</h2>
+        <div class="mt-12 flex justify-center space-x-6">
+          <div class="carousel-slide p-6 bg-white rounded-lg shadow-xl max-w-xs transform transition-all hover:scale-105" data-aos="flip-left">
+            <p class="text-lg font-semibold">"Les produits Bigoodee ont transformé mes cheveux texturés. Une vraie révolution!"</p>
+            <p class="mt-4 font-semibold text-gray-700">Mariam, 28 ans</p>
+          </div>
+          <div class="carousel-slide p-6 bg-white rounded-lg shadow-xl max-w-xs transform transition-all hover:scale-105" data-aos="flip-left">
+            <p class="text-lg font-semibold">"Enfin, des produits adaptés à mes besoins capillaires! Mes cheveux sont magnifiques."</p>
+            <p class="mt-4 font-semibold text-gray-700">Fatou, 34 ans</p>
+          </div>
+        </div>
+        <div class="mt-6">
+          <button class="left text-white bg-transparent border-none text-3xl">←</button>
+          <button class="right text-white bg-transparent border-none text-3xl">→</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Conseils -->
+    <section id="about" class="py-20 bg-white" data-aos="fade-up">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-semibold">Nos conseils pour vos cheveux texturés</h2>
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold">Conseil 1</h3>
+            <p class="mt-4">L'hydratation est la clé pour des cheveux texturés sains. Utilisez des produits nourrissants et hydratez régulièrement.</p>
+          </div>
+          <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold">Conseil 2</h3>
+            <p class="mt-4">Appliquez des huiles naturelles pour maintenir l'élasticité et la brillance de vos cheveux.</p>
+          </div>
+          <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold">Conseil 3</h3>
+            <p class="mt-4">Optez pour des coiffures protectrices pour préserver la santé de vos cheveux et réduire les cassures.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulaire de Contact -->
+    <section id="contact" class="py-20 bg-gray-50" data-aos="fade-up">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-semibold">Contactez-nous</h2>
+        <form action="#" method="POST" class="mt-8 max-w-lg mx-auto">
+          <input type="text" name="name" placeholder="Votre nom" class="w-full p-4 mb-4 border border-gray-300 rounded">
+          <input type="email" name="email" placeholder="Votre email" class="w-full p-4 mb-4 border border-gray-300 rounded">
+          <textarea name="message" placeholder="Votre message" class="w-full p-4 mb-4 border border-gray-300 rounded"></textarea>
+          <button type="submit" class="bg-pink-600 text-white py-3 px-8 rounded-full text-lg hover:bg-pink-700">Envoyer</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Section FAQ -->
+    <section id="faq" class="py-20 bg-white" data-aos="fade-up">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-semibold">Questions Fréquentes</h2>
+        <div class="mt-8 space-y-6">
+          <div class="p-6 bg-gray-100 rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold">Comment choisir le bon produit pour mes cheveux ?</h3>
+            <p class="mt-4">Notre équipe d'experts vous conseille sur les produits les plus adaptés à vos besoins spécifiques en fonction de votre type de cheveux.</p>
+          </div>
+          <div class="p-6 bg-gray-100 rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold">Puis-je utiliser vos produits si j'ai des cheveux crépus ?</h3>
+            <p class="mt-4">Oui, nos produits sont spécialement formulés pour nourrir et hydrater les cheveux crépus et texturés.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- Section Recevoir ma routine -->
+  <section class="py-20 bg-bigoodee-light text-center">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-semibold text-bigoodee-dark mb-6">Recevez votre routine personnalisée</h2>
+      <button class="bg-bigoodee-dark text-white py-3 px-8 rounded-full text-lg hover:opacity-80 transition" onclick="openRoutineForm()">Recevoir ma routine</button>
+    </div>
+  </section>
+
+    <!-- Section Newsletter -->
+    <section id="faq" class="py-20 bg-white">
+  <div class="container mx-auto">
+    <h2 class="text-4xl font-semibold text-center text-gray-900 mb-12">Questions Fréquentes</h2>
+    <div class="space-y-4">
+      <!-- Question 1 -->
+      <div class="border-b border-gray-200">
+        <button class="w-full text-left flex justify-between items-center py-4 text-lg font-medium text-gray-700 focus:outline-none" onclick="toggleFAQ(event)">
+          Qu'est-ce que Bigoodee propose exactement ?
+          <span class="ml-2 transform transition-transform duration-200">&#x25BC;</span>
+        </button>
+        <div class="faq-answer hidden pl-4 pb-4 text-gray-600">
+          Bigoodee accompagne les femmes aux cheveux texturés dans leur quête de naturel, en leur fournissant des conseils personnalisés et des astuces pour prendre soin de leurs cheveux au quotidien.
+        </div>
+      </div>
+      <!-- Question 2 -->
+      <div class="border-b border-gray-200">
+        <button class="w-full text-left flex justify-between items-center py-4 text-lg font-medium text-gray-700 focus:outline-none" onclick="toggleFAQ(event)">
+          Est-ce que les conseils de Bigoodee conviennent à tous les types de cheveux ?
+          <span class="ml-2 transform transition-transform duration-200">&#x25BC;</span>
+        </button>
+        <div class="faq-answer hidden pl-4 pb-4 text-gray-600">
+          Oui, nos conseils sont principalement axés sur les cheveux texturés, mais beaucoup de nos astuces peuvent être bénéfiques pour tous les types de cheveux.
+        </div>
+      </div>
+      <!-- Question 3 -->
+      <div class="border-b border-gray-200">
+        <button class="w-full text-left flex justify-between items-center py-4 text-lg font-medium text-gray-700 focus:outline-none" onclick="toggleFAQ(event)">
+          Qu'est-ce qui différencie Bigoodee des autres sources d'information capillaire ?
+          <span class="ml-2 transform transition-transform duration-200">&#x25BC;</span>
+        </button>
+        <div class="faq-answer hidden pl-4 pb-4 text-gray-600">
+          Bigoodee offre une approche holistique et naturelle, avec des conseils sur mesure adaptés aux besoins spécifiques des femmes aux cheveux texturés, favorisant une routine capillaire simple et pratique.
+        </div>
+      </div>
+      <!-- Question 4 -->
+      <div class="border-b border-gray-200">
+        <button class="w-full text-left flex justify-between items-center py-4 text-lg font-medium text-gray-700 focus:outline-none" onclick="toggleFAQ(event)">
+          Comment puis-je poser des questions ou demander des conseils personnalisés ?
+          <span class="ml-2 transform transition-transform duration-200">&#x25BC;</span>
+        </button>
+        <div class="faq-answer hidden pl-4 pb-4 text-gray-600">
+          Vous pouvez nous contacter directement à l'adresse email hello@bigoodee.fr pour toute question ou demande de conseil personnalisé.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <!-- Section Recevoir mon e-book -->
+  <section class="py-20 bg-bigoodee-light text-center">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-semibold text-bigoodee-dark mb-6">Recevez notre e-book exclusif</h2>
+      <button class="bg-bigoodee-dark text-white py-3 px-8 rounded-full text-lg hover:opacity-80 transition" onclick="openEbookForm()">Recevoir mon e-book</button>
+    </div>
+  </section>
+
+  <!-- Section Besoin de conseils -->
+  <section class="py-20 bg-bigoodee-soft text-center">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-semibold text-bigoodee-dark mb-6">Besoin de conseils ?</h2>
+      <p class="text-lg text-bigoodee-dark">Envoyez-nous un message à <a href="mailto:hello@bigoodee.fr" class="underline">hello@bigoodee.fr</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-bigoodee-dark text-white py-6">
+    <div class="container mx-auto text-center">
+      <p class="mb-4">Bigoodee accompagne les femmes aux cheveux texturés dans leur quête de naturel.</p>
+      <button class="bg-bigoodee-pink text-bigoodee-dark py-2 px-6 rounded-full text-lg hover:opacity-80 transition" onclick="openNewsletterForm()">M'inscrire</button>
+      <p class="mt-4">&copy; 2025 Bigoodee. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="js/aos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
